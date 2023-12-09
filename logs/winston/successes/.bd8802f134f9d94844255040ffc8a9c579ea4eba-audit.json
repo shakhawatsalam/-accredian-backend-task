@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Web Development Course\\Interview-Task\\accredian\\Accredian-backend-task\\logs\\winston\\successes\\.bd8802f134f9d94844255040ffc8a9c579ea4eba-audit.json",
+    "files": [
+        {
+            "date": 1702098082853,
+            "name": "E:\\Web Development Course\\Interview-Task\\accredian\\Accredian-backend-task\\logs\\winston\\successes\\phu-2023-09-12-11-success.log",
+            "hash": "a63d6ffbc42eb7b5b055739f3eefb68df5752dfe2cb044e64238664d315ac491"
+        }
+    ],
+    "hashType": "sha256"
+}
