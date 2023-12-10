@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Web Development Course\\Interview-Task\\accredian\\Accredian-backend-task\\logs\\winston\\errors\\.50b76308cb1d0d041c4d3c37f2d07b4f7662675c-audit.json",
+    "files": [
+        {
+            "date": 1702187849009,
+            "name": "E:\\Web Development Course\\Interview-Task\\accredian\\Accredian-backend-task\\logs\\winston\\errors\\phu-2023-10-12-11-error.log",
+            "hash": "9705568c11f1f7ac522eed66d2d2e5b73a11596902358c8aab3ea62041b64110"
+        },
+        {
+            "date": 1702188049938,
+            "name": "E:\\Web Development Course\\Interview-Task\\accredian\\Accredian-backend-task\\logs\\winston\\errors\\phu-2023-10-12-12-error.log",
+            "hash": "9682044c4d7d2f1a99fcd936f33dbc258c0f48c434ae3a24baaaba49028dc013"
+        }
+    ],
+    "hashType": "sha256"
+}

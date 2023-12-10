@@ -4,6 +4,7 @@ import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { UserService } from './user.service';
 
+// * Sign Up User
 const SignUP = catchAsync(async (req: Request, res: Response) => {
   console.log(req.body, 'Regisesad');
   const result = await UserService.SignUP(req.body);
@@ -15,7 +16,20 @@ const SignUP = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
+// * Login User
+const loginUser = catchAsync(async (req: Request, res: Response) => {
+  const { ...loginData } = req.body;
+  const result = await UserService.loginUser(loginData);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User LogIn Successfully',
+    data: result,
+  });
+});
 
 export const UserController = {
   SignUP,
+  loginUser,
 };

@@ -10,5 +10,10 @@ router.post(
   validateRequest(userValidation.SignUpUser),
   UserController.SignUP
 );
+router.post(
+  '/login',
+  validateRequest(userValidation.logIn),
+  UserController.loginUser
+);
 
 export const userRoutes = router;
