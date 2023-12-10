@@ -65,7 +65,19 @@ const loginUser = async (payload: any): Promise<string> => {
   return accessToken;
 };
 
+// * get Single user
+const getSingleUser = async (id: any) => {
+  const result = await prisma.user.findUnique({
+    where: {
+      id,
+    },
+  });
+
+  return result;
+};
+
 export const UserService = {
   SignUP,
   loginUser,
+  getSingleUser,
 };
